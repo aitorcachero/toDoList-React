@@ -66,13 +66,18 @@ form {
   margin: 3rem;
 }
 
-input {
+input[type='text'] {
   width: 10rem;
   height: 2.5rem;
   outline: none;
   text-align: center;
   padding: 0.5rem;
   font-size: 12pt;
+}
+
+input[type='checkbox'] {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 button {
